@@ -20,6 +20,8 @@ export default function TabLayout() {
         name="CustomersScreen"
         options={{
           title: 'Customers',
+          tabBarActiveTintColor: "#59C1CC",
+          tabBarInactiveTintColor: "gray",
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
@@ -27,6 +29,8 @@ export default function TabLayout() {
         name="OrdersScreen"
         options={{
           title: 'Orders',
+          tabBarActiveTintColor: "#59C1CC",
+          tabBarInactiveTintColor: "gray",
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
